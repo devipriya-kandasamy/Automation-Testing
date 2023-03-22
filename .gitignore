@@ -22,10 +22,10 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-	*.DS_Store
-*.classpath
-*.settings/org.eclipse.jdt.core.prefs
-*.settings/org.eclipse.m2e.core.prefs
-
-/target/*
-
+.DS_Store
+src/.DS_Store
+.classpath
+.project
+.settings/
+target/
+test-output/
